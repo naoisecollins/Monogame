@@ -5,8 +5,10 @@ namespace MyGame.Graphics
 {
     public class Triangle
     {
+        // Fields
         private VertexBuffer vertexBuffer;
 
+        // Constructor
         public Triangle(GraphicsDevice graphicsDevice)
         {
             VertexPositionColor[] triangleVertices = new VertexPositionColor[3];
@@ -18,11 +20,15 @@ namespace MyGame.Graphics
             vertexBuffer.SetData(triangleVertices);
         }
 
+        // Methods
         public void Draw(GraphicsDevice graphicsDevice, BasicEffect basicEffect)
         {
             graphicsDevice.SetVertexBuffer(vertexBuffer);
-            basicEffect.VertexColorEnabled = true; // Enable vertex colors for the triangle
 
+            // Enable vertex colors for the triangle
+            basicEffect.VertexColorEnabled = true;
+
+            // Apply the basic effect
             foreach (EffectPass pass in basicEffect.CurrentTechnique.Passes)
             {
                 pass.Apply();
