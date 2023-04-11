@@ -22,7 +22,7 @@ namespace MyGame
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
-            IsMouseVisible = true;
+            
 
             graphics.PreferredBackBufferWidth = 800;
             graphics.PreferredBackBufferHeight = 600;
@@ -41,13 +41,16 @@ namespace MyGame
             triangle = new Triangle(GraphicsDevice);
             cube = new Cube(GraphicsDevice);
 
-            inputManager = new InputManager();
+            inputManager = new InputManager(Window);
             inputManager.OnMove += camera.Move;
+            inputManager.OnRotate += camera.Rotate;
         }
 
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            Mouse.SetPosition(Window.ClientBounds.Width / 2, Window.ClientBounds.Height / 2);
+
         }
 
         protected override void Update(GameTime gameTime)
