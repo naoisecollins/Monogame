@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "/hhyUVdnxuSGjIi9vXlioX6jcmPu6HGi4IatVUPzgVqRyXUU6D3M+SzUvuKbFbZ5NJV0uRMq/2kKbzOfTH7d6A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\naois\\Documents\\Monogame\\MyGame\\MyGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\naois\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\naois\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\naois\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.15\\microsoft.netcore.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\naois\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.15\\microsoft.windowsdesktop.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\naois\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.15\\microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\naois\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.15\\microsoft.netcore.app.host.win-x64.6.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
